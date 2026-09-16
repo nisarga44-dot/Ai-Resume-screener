@@ -6,9 +6,9 @@ and Module 3 (Keyword Analysis) into one Streamlit web app.
 """
 
 import streamlit as st
-from module1_extraction import process_inputs
-from module2_matching import get_match_score
-from module3_keywords import get_missing_keywords, build_result
+from mod1 import process_inputs
+from mod2 import get_match_score
+from mod3 import get_missing_keywords, build_result
 
 st.set_page_config(page_title="AI Resume Screener", page_icon="\U0001F4C4")
 st.title("\U0001F4C4 AI Resume Screener")
